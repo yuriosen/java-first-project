@@ -29,5 +29,9 @@ public class Main {
         System.out.println(baby1.olderThan18());
         System.out.println(human.getAge());
 
+        int a = 1, b = 2, c = 3, d = 4;
+        int maxm = Math.max(Math.max(a, b), Math.max(c, d));
+        System.out.println("max: " + max);
+
     }
 }
